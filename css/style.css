@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    background-color: #33F2BE;
+
+}
+
+.header-title{
+    font-family: 'Audiowide', cursive;
+    background-color: #4B33F2;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    padding: 15px;
+    margin: 20px 0px;
+    border: 5px solid;
+    border-color:#F9FAF8;
+    border-radius: 10px;
+    background: linear-gradient(to right, #CA31E8, #33F2BE, #15EB12); /* Define a cor da linha usando um gradiente */
+    background-clip: padding-box; /* Define a área onde o fundo do gradiente é exibido */
+}
+  
+.body-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;    
+} 
+
+.colum-1{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;  
+}
+
+.colum-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10% ;
+    padding: 5%;
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    color: #F9FAF8;
+    border: 4px solid;
+    border-color:#F9FAF8;
+    border-radius: 10px;
+    background: linear-gradient(to right, #CA31E8, #4B33F2, #15EB12);
+    background-clip: padding-box;
+}
+
+.colum-2 ul{
+    background-color: inherit;
+}
+
+.colum-2 li {
+    background-color: inherit;
+    list-style: none;
+}
+  
+.colum-2 div{
+    background-color: inherit;
+}
+
+button{
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    color: #F9FAF8;
+    padding: 10px;
+    border: 4px solid;
+    border-color:#F9FAF8;
+    border-radius: 10px;
+    background: linear-gradient(to right, #CA31E8, #4B33F2, #15EB12);
+    background-clip: padding-box;   
+}
+
+#win-loss{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-line;
+    text-align: center;  
+    padding-top: 5%;  
+}

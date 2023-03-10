@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
-
+    <link rel="shortcut icon" href="./image/rock.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <title>Rock, Paper, Scissors</title>
 </head>
 <body>
-    <script src="./jogo.js"></script>
+    <div class="header-title">
+        <div class="title">
+            Rock, Paper, Scissors 
+        </div>
+    </div>
+
+    <div class="body-box">
+
+        <div class="colum-1">
+            <button id="Rock" >Rock</button>
+            <button id="Paper" >Paper</button>
+            <button id="Scissors">Scissors</button>
+        </div>
+
+        <div class="colum-2">
+            <ul>
+                <li class="score-computer">Computer: 0 </li>
+                <li class="score-you">You: 0 </li>
+            </ul>
+            <div id="congratulations"></div>
+        </div>
+                
+    </div>
+
+    <div id="win-loss">
+        <div id="messanger-win"></div>
+    </div>
+
+    <script src="./js/jogo.js"></script>
 </body>
 </html>
